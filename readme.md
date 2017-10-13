@@ -5,6 +5,8 @@ Aliplayer-cli命令行可以创建Aliplayer的体验Demo
 
 ### 安装
 
+依赖于[node.js](https://nodejs.org)
+
 ```sh
 
 npm install aliplayer-cli -g
