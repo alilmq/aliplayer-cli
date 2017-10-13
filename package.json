@@ -1,0 +1,36 @@
+{
+  "name": "aliplayer-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for creating aliplayer demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aliplayer-cli": "bin/aliplayer-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alilmq/aliplayer-cli.git"
+  },
+  "keywords": [
+    "create",
+    "aliplayer",
+    "player",
+    "cli",
+    "aliyun"
+  ],
+  "author": "muqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alilmq/aliplayer-cli/issues"
+  },
+  "homepage": "https://github.com/alilmq/aliplayer-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "download-git-repo": "^1.0.1"
+  }
+}

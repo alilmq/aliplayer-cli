@@ -1,0 +1,37 @@
+#!/usr/bin/env node --harmony
+'use strict'
+
+process.env.NODE_PATH = __dirname + '/../node_modules/'
+
+const program = require('commander')
+const colors = require('colors');
+
+program
+	.version(require('../package').version )
+	.arguments('<type> <folder>')
+	.action(function (type, folder) {
+	   console.log('type:'+type);
+	   console.log('folder:' + folder)
+       if(type != 'simple' && type != 'webpack')
+       {
+         console.log('plase specify the correct type, the optional value should be "simple" or "webapck" '.red);
+         return
+       }
+       if(!folder)
+       {
+         console.log('plase specify the folder'.red);
+         return 
+       }
+       const index = require('../command')(type,folder);
+    });
+
+program
+	.usage('<command>')
+
+
+
+program.parse(process.argv)
+
+if(!program.args.length){
+  program.help()
+}
