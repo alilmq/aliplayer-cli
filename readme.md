@@ -1,4 +1,4 @@
-## Aliplayer播放器项目创建命令行
+## 创建Aliplayer播放器项目命令
 
 Aliplayer-cli命令行可以创建Aliplayer的体验Demo
 
