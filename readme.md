@@ -26,7 +26,7 @@ aliplayer-cli <type> <folder>
 
 命令有两个参考:
 
-- type: 项目类型，可选值为'simple' or 'webpack'; simple(简单类型)项目就只包含一个html文件， webpack(复杂类型)项目包含了组件化、使用webpack、区分测试和生产环境等。
+- type: 项目类型，可选值为['simple'](https://github.com/alilmq/aliplayer-simple-demo) or ['webpack'](https://github.com/alilmq/h5demo)，simple(简单类型)项目就只包含一个html文件， webpack(复杂类型)项目包含了组件化、使用webpack、区分测试和生产环境等。
 
 - folder: 在那个文件夹下创建项目
 
